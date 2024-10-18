@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(57, 52, 52);
+}
+.Cal_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5em;
+    height: 590px;
+    width: 1190px;
+    padding: 10px;
+    margin: 10px;
+    background-image: url("images/hack.jpg");
+    
+
+}
+#calculator{
+    border: 3px solid white;
+    border-radius: 1.5em;
+    width: 500px;
+}
+#display{
+    margin: 20px;
+    width:450px;
+    height: 100px;
+    font-size: 35px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 3px solid rgb(11, 58, 11);
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button{
+    width: 85px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+    font-family:cursive;
+}
+#equal{
+    background-color: rgb(30, 116, 147);
+    
+
+}
